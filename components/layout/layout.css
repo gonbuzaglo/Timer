@@ -1,0 +1,25 @@
+.layout{
+    height: 100%;
+    display: grid;
+    text-align: center;
+    grid-template-rows: 13% 80% 7%;
+}
+
+.layout > header {
+    background-color: #1e1e1e;
+    color: aliceblue;
+}
+.layout > main {
+    background-color: #f4f4f4;
+    color: #1e1e1e;
+}
+.layout > footer {
+    background-color: #1e1e1e;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 525px) {
+    .layout{
+        grid-template-rows: 17% 76% 7%;
+    }
+}

@@ -1,0 +1,32 @@
+.timer-runner {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 85% 15%;
+}
+
+.timer-runner > .btn-group > button {
+    border-radius: 0;
+}
+
+.timer-runner > .runner-display > #runningTime, .timer-runner > .runner-display > #defaultTime {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    width: 180px;
+    height: 80px;
+    margin-left: 30px;
+} 
+
+.timer-runner > .runner-display > .hms-container {
+    width: 100%;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.timer-runner > .runner-display > .hms-container > span{
+    margin: 8%;
+    margin-bottom: 2%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgba(128, 128, 128, 0.884);
+}
